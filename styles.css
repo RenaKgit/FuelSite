@@ -1,0 +1,136 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);}
+    to {opacity: 1;
+        transform: translateY(0);
+  }
+}
+body {
+  background: url(https://images.unsplash.com/photo-1562954203-74c7fb884cba?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-50px);
+  animation: fadeIn 2s forwards;
+}
+
+/* CSS styles for the login form */
+.login-container, .quote-history-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff0df;
+  animation: fadeIn 3s ease;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.login-container label,
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #8fb151;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+.registration-link {
+  text-align: center;
+  margin-top: 10px;
+  color: #666;
+}
+
+.registration-link a {
+  color: #4CAF50;
+}
+
+.login-container input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 70px;
+  }
+
+  .login-container  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .login-container span {
+    text-transform: uppercase;
+  }
+  .login-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+/*
+  .quote-history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e1f5fe;
+  }*/
+
+  .quote-history-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  .quote-history-container span {
+    text-transform: uppercase;
+  }
+  .pricesTable td, th, table {
+    border: 1px solid #ccc;
+  }
